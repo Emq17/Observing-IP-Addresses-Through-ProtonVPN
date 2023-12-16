@@ -22,21 +22,29 @@ For this quick little project, I will simply help demonstrate the influence of w
 
 1. The first thing you would want to do is to simply go to "whatismyipaddress.com" on your local machine. Observe the current IP Address provided to you. This is what your PC is currently using without any VPN's.
 
+![Screen Shot 2023-12-16 at 1 51 06 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/bfc85424-4be7-4155-9784-4b710ae638e0)
+
 ![Screen Shot 2023-12-16 at 1 15 13 AM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/ffb14361-ab3a-4fca-96f7-586e9a5b0b88)
 
-2. The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure. Within your portal set the "Region" to "US West 3" and also choose "Windows 10 Pro, version 22H2" for your "Image." Scroll down a bit and choose your size. After that, go ahead and create a Username/Password to be able to log in to your Virtual Machine. Leave everything else as is and click "Review + create."
+2. The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure. So go inside the Virtual Machine portal by searching it up in the search tab then start by choosing another geographic location. For me I had set the "Region" to "US West 3." Also choose "Windows 10 Pro, version 22H2" for your "Image." Scroll down a bit and choose your size. After that, go ahead and create a Username/Password to be able to log in to your Virtual Machine. Leave everything else as is and click "Review + create."
 
 3. For the third step I ended up using the "Remote Microsoft Desktop" application on my Macbook. You can download this free through the app store. Grab the public IP Address within your VM inside Azure and use that as your PC name. Once added you will simply use your log in credentials that you created while setting up your VM in the previous step.
 
-4. Next, go ahead and open up the website "whatismyipaddress.com" again but this time through the VM. Now observe the new IP Address and location given. You can see that the location corresponds with the region you had chosen while setting up the VM. 
+4. Next, go ahead and open up the website "whatismyipaddress.com" again but this time through the VM. Now observe the new IP Address and location given. You can see that the location corresponds with the region you had chosen while setting up the VM.
+ 
+![Screen Shot 2023-12-16 at 1 53 01 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/9646861c-fc11-4105-a3eb-aba344ee1c71)
 
-6. Sign up for the free version of ProtonVPN on your PC. Download and install the ProtonVPN client.
+6. Sign up for the free version of ProtonVPN (https://account.protonvpn.com/signup?plan=free&language=en) on your actual computer. Then download and install the ProtonVPN client within your VM. 
 
-7. Inside the Azure virtual machine, connect to a ProtonVPN server located in Japan (or another available country). This establishes a VPN connection between the virtual machine and the chosen ProtonVPN server.
+7. Inside the Azure virtual machine, connect to a ProtonVPN server located in another country like Japan (or any another available countries). This establishes a VPN connection between your virtual machine and the chosen ProtonVPN server.
+   
+![Screen Shot 2023-12-16 at 1 57 32 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/9fd48842-d0f3-4386-87ea-4fd9eb7f1df1)
 
-8. Access the website "whatismyipaddress.com" again from within the Azure virtual machine, with the VPN active. Take note of the new IP address and location displayed. This IP address should reflect the location of the VPN server (e.g., Tokyo, Japan).
+9. Now browse back on to "whatismyipaddress.com" again from within the Azure virtual machine. As the VPN is now active, observe how the new IP address and location is different. This IP address should reflect the location of the VPN server (e.g., Tokyo, Japan).
+    
+![Screen Shot 2023-12-16 at 1 58 15 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/4bf91c3f-658f-4d02-8473-b300cd317e90)
 
-9. As you can see when you access different websites like Google or Netflix you can see that the marketing is specifically geared towards that country. 
+11. As you can see when you also access different websites like Google or Netflix you can see that in relation to the location of the VPN, many different things about these sites could be different. For example, the languages, URL, or even advertisements are all specifically geared towards that country.
 
 
 ## Results
