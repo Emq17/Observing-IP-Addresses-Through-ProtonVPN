@@ -2,7 +2,8 @@
 
 
 <h1>Examining the Influence of a VPN on IP Addresses</h1>
-For this quick little project, I will simply help demonstrate the influence of what a virtual private network (VPN) has on IP addresses, location, and overall web browsing. This walkthrough below will help you understand visually of what I did to set things up and hopefully give you a better glimpse of what happens once the VPN is implemented.<br />
+
+Within this repository, I aim to illustrate the functionality of Virtual Private Networks (VPNs). These tools encrypt and redirect your internet traffic through remote servers, creating the illusion that you are browsing from diverse locations. VPNs are valuable for bolstering privacy and security, as well as circumventing geo-restrictions. In this guide, I will demonstrate the impact a VPN has on IP addresses, location, and general web browsing aiming to enhance your visual understanding of the setup process and provide a clearer insight into how the implemented VPN functions.<br />
 
 
 <h2>Environments and Technologies</h2>
@@ -58,5 +59,3 @@ Hopefully this walkthrough provided a better understanding on how to get a Virtu
 - After connecting to the Azure virtual machine and accessing the website, a different IP address and the location of the virtual machine (e.g., Paris) are displayed.
 
 - Finally, by connecting to the ProtonVPN server in Japan from within the virtual machine and accessing the website again, another IP address and the location of the VPN server (e.g., Tokyo, Japan) are shown.
-
-This exercise demonstrates how VPNs work by encrypting and routing your internet traffic through remote servers, making it appear as if you are browsing from different locations. VPNs can enhance privacy, and security, and allow you to bypass geo-restrictions.
