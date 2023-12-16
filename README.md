@@ -46,6 +46,8 @@ For this quick little project, I will simply help demonstrate the influence of w
 
 11. As you can see when you also access different websites like Google or Netflix you can see that in relation to the location of the VPN, many different things about these sites could be different. For example, the languages, URL, or even advertisements are all specifically geared towards that country.
 
+12. As always, if you are following this, remember to clean up and delete the Resource Group you created for your Virtual Machine within Azure as this may eat up all of your credits or rack up a huge bill if completely forgotten. 
+
 
 ## Results
 
