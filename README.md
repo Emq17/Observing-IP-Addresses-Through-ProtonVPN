@@ -27,11 +27,41 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ![Screen Shot 2023-12-16 at 1 15 13 AM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/ffb14361-ab3a-4fca-96f7-586e9a5b0b88)
 
-2. The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure. So go inside the Virtual Machine portal by searching it up in the search tab then start by choosing another geographic location. For me I had set the "Region" to "US West 3." Also choose "Windows 10 Pro, version 22H2" for your "Image." Scroll down a bit and choose your size. After that, go ahead and create a Username/Password to be able to log in to your Virtual Machine. Leave everything else as is and click "Review + create."
+2. The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure.
 
-3. For the third step I ended up using the "Remote Microsoft Desktop" application on my Macbook. You can download this free through the app store. Grab the public IP Address within your VM inside Azure and use that as your PC name. Once added you will simply use your log in credentials that you created while setting up your VM in the previous step.
+- Go inside the Virtual Machine portal by searching it up in the search tab.
+  
+![Screen Shot 2023-12-16 at 7 43 49 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/52632ac6-a309-4eaa-adcd-ba6227546957)
 
-4. Next, go ahead and open up the website "whatismyipaddress.com" again but this time through the VM. Now observe the new IP Address and location given. You can see that the location corresponds with the region you had chosen while setting up the VM.
+   - Then choose "Azure Virtual Machine" under the "Create" tab.
+
+![Screen Shot 2023-12-16 at 7 48 27 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/be2f6106-32be-46bc-a04f-7df430a1acfb)
+
+   - Start by choosing another geographic location ("Region"). For my VM, I had randomly set it to "(Africa) South Africa". Also choose "Windows 10 Pro, version 22H2" for your "Image."
+
+![Screen Shot 2023-12-16 at 7 59 41 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/37c70a45-3ddd-4031-8eab-129b1d6624bf)
+     
+   - Scroll down a bit and choose your size. After that, go ahead and create a Username/Password to be able to log in to your Virtual Machine. Leave everything else as is. Click the box to confirm licensing then hit "Review + create."
+
+![Screen Shot 2023-12-16 at 8 08 55 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/0bcc5f47-4fd4-4a11-8bd9-08ce7a258cdb)
+
+- After your VM passes validation, click create.
+
+![Screen Shot 2023-12-16 at 8 21 59 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/193c2084-6782-4e9b-8c76-81c6a30b8acb)
+
+4. For the third step I ended up using the "Remote Microsoft Desktop" application on my Macbook. You can download this free through the app store.
+
+![Screen Shot 2023-12-16 at 8 28 54 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/27ff32a7-b4ee-4e21-9973-3430b246b1f6)
+
+- Grab the public IP Address within your VM inside Azure and use that as your PC name. 
+
+![Screen Shot 2023-12-16 at 8 32 40 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/f33fe4dc-8581-44c1-8831-081f5ab599d2)
+
+- Once added you will simply use your log in credentials that you created while setting up your VM in the previous step.
+
+![Screen Shot 2023-12-16 at 8 34 04 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/a6e3065f-0d7b-4090-a24a-8e6be650f177)
+
+6. Next, go ahead and open up the website "whatismyipaddress.com" again but this time through the VM. Now observe the new IP Address and location given. You can see that the location corresponds with the region you had chosen while setting up the VM.
  
 ![Screen Shot 2023-12-16 at 1 53 01 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/9646861c-fc11-4105-a3eb-aba344ee1c71)
 
