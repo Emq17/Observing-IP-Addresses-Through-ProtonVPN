@@ -97,7 +97,7 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 ![Screen Shot 2023-12-19 at 1 17 40 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/993bc5c1-8836-486a-8875-a54d22180e13)
 ![Screen Shot 2023-12-19 at 1 18 34 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/dcccc652-fbc7-4f79-9ead-7e3c383f58c0)
 
-13. As always, if you are following this, remember to clean up and delete the Resource Group you created for your Virtual Machine within Azure as this may eat up all of your credits or rack up a huge bill if completely forgotten.
+13. As always, if you are following this & completed everything, remember to clean up and delete the Resource Group(s) that was created for your Virtual Machine within Azure as this may eat up all of your credits or rack up a huge bill if left unattended. Below is the process of how I go about deleting them. 
     
 ![Screen Shot 2023-12-19 at 1 22 15 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/d181c076-53aa-43da-a9da-aaceceb05fbb)
 
