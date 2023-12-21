@@ -21,13 +21,13 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ## Step-by-Step Guide
 
-1. The first thing you would want to do is to simply go to "whatismyipaddress.com" on your local machine. Observe the current IP Address provided to you. This is what your PC is currently using without any VPN's. Below is a diagram of that first step.
+The first thing you would want to do is to simply go to "whatismyipaddress.com" on your local machine. Observe the current IP Address provided to you. This is what your PC is currently using without any VPN's. Below is a diagram of that first step.
 
 ![Screen Shot 2023-12-16 at 1 51 06 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/bfc85424-4be7-4155-9784-4b710ae638e0)
 
 ![Screen Shot 2023-12-16 at 1 15 13 AM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/ffb14361-ab3a-4fca-96f7-586e9a5b0b88)
 
-2. The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure.
+The next step within this walkthrough is to go create a Virtual Machine within Microsoft Azure.
 
 - Go inside the Virtual Machine portal by searching it up in the search tab.
   
@@ -52,7 +52,7 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ![Screen Shot 2023-12-16 at 8 21 59 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/193c2084-6782-4e9b-8c76-81c6a30b8acb)
 
-3. For this step I ended up using the "Microsoft Remote Desktop" application on my Macbook. You can download this free through the app store.
+For this step I ended up using the "Microsoft Remote Desktop" application on my Macbook. You can download this free through the app store.
 
 ![Screen Shot 2023-12-16 at 8 28 54 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/27ff32a7-b4ee-4e21-9973-3430b246b1f6)
 
@@ -64,17 +64,17 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ![Screen Shot 2023-12-16 at 8 34 04 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/a6e3065f-0d7b-4090-a24a-8e6be650f177)
 
-4. You should be logged into the Windows platform now. Next, use Microsoft Edge to enter the website "whatismyipaddress.com" again. Observe the new IP Address and location given to you. The location should now correspond with the region you had selected while setting up the VM in Azure.
+You should be logged into the Windows platform now. Next, use Microsoft Edge to enter the website "whatismyipaddress.com" again. Observe the new IP Address and location given to you. The location should now correspond with the region you had selected while setting up the VM in Azure.
  
 ![Screen Shot 2023-12-16 at 1 53 01 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/9646861c-fc11-4105-a3eb-aba344ee1c71)
 ![Screen Shot 2023-12-19 at 12 51 15 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/41ac0fd3-3a24-4c8a-bcdc-311526b0c2d1)
 
-5. Sign up for the free version of ProtonVPN (https://account.protonvpn.com/signup?plan=free&language=en). Then download and install the ProtonVPN client within your VM.
+Sign up for the free version of ProtonVPN (https://account.protonvpn.com/signup?plan=free&language=en). Then download and install the ProtonVPN client within your VM.
 
 ![Screen Shot 2023-12-19 at 1 00 00 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/a73c089f-8a2c-4cc1-b1a9-731c83608c2d)
 
 
-6. After installation, log in, connect to a ProtonVPN server located in another country like Japan (or any another available countries).
+After installation, log in, connect to a ProtonVPN server located in another country like Japan (or any another available countries).
 
 -  This establishes a VPN connection between your virtual machine and the chosen ProtonVPN server.
 -  Upon the time you are completing this, you may see that ProtonVPN now charges members to upgrade to "Plus" which gives them access to other countries. Below I chose "Quick Connect" and was connected to the Netherlands.
@@ -87,17 +87,17 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ![Screen Shot 2023-12-16 at 1 57 32 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/9fd48842-d0f3-4386-87ea-4fd9eb7f1df1)
 
-7. Now browse back on to "whatismyipaddress.com" again from within the Azure virtual machine. As the VPN is now active, observe how the new IP address and location is different. This IP address should reflect the location of the VPN server (e.g., Netherlands).
+Now browse back on to "whatismyipaddress.com" again from within the Azure virtual machine. As the VPN is now active, observe how the new IP address and location is different. This IP address should reflect the location of the VPN server (e.g., Netherlands).
 
 ![Screen Shot 2023-12-19 at 1 13 46 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/e4c42383-c2bc-4340-8d02-a22f5805d4c3)
 
-8. As you can see when you also access different websites like Google, Netflix, or Apple, you can see that in relation to the location of the VPN, many different things about these sites could be different. For example, the languages, URL, or even advertisements are all specifically geared towards that country.
+As you can see when you also access different websites like Google, Netflix, or Apple, you can see that in relation to the location of the VPN, many different things about these sites could be different. For example, the languages, URL, or even advertisements are all specifically geared towards that country.
 
 ![Screen Shot 2023-12-19 at 1 15 54 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/8197b7b0-5a59-46a0-a661-4ce33a692145)
 ![Screen Shot 2023-12-19 at 1 17 40 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/993bc5c1-8836-486a-8875-a54d22180e13)
 ![Screen Shot 2023-12-19 at 1 18 34 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/dcccc652-fbc7-4f79-9ead-7e3c383f58c0)
 
-9. As always, if you are following this & completed everything, remember to clean up and delete the Resource Group(s) that was created for your Virtual Machine within Azure as this may eat up all of your credits or rack up a huge bill if left unattended. Below is the process of how I go about deleting them. 
+As always, if you are following this & completed everything, remember to clean up and delete the Resource Group(s) that was created for your Virtual Machine within Azure as this may eat up all of your credits or rack up a huge bill if left unattended. Below is the process of how I go about deleting them. 
     
 ![Screen Shot 2023-12-19 at 1 22 15 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/d181c076-53aa-43da-a9da-aaceceb05fbb)
 
