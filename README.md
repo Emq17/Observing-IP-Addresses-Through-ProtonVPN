@@ -52,7 +52,7 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 ![Screen Shot 2023-12-16 at 8 21 59 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/193c2084-6782-4e9b-8c76-81c6a30b8acb)
 
-4. For the third step I ended up using the "Remote Microsoft Desktop" application on my Macbook. You can download this free through the app store.
+4. For this step I ended up using the "Microsoft Remote Desktop" application on my Macbook. You can download this free through the app store.
 
 ![Screen Shot 2023-12-16 at 8 28 54 PM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/27ff32a7-b4ee-4e21-9973-3430b246b1f6)
 
