@@ -1,5 +1,6 @@
-![Screen Shot 2023-12-16 at 12 43 34 AM](https://github.com/Emq17/Observing-IP-Addresses-Through-ProtonVPN/assets/147126755/e509c7bb-8335-4f8d-874b-3bff8c295fd1)
-
+<p align="center">
+<img src="https://i.imgur.com/IOuDUwp.png" alt="Logo"/>
+</p>
 
 <h1>Examining the Influence of a VPN on IP Addresses</h1>
 
