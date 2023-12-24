@@ -16,7 +16,7 @@ Within this repository, I aim to illustrate the functionality of Virtual Private
 
 <h2>Operating System </h2>
 
-- Windows 10 (21H2)
+- Windows 10 (22H2)
 
 # Setting Up VPN in an Azure Virtual Machine
 
