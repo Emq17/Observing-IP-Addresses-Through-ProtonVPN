@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/IOuDUwp.png" alt="Logo"/>
 </p>
 
-<h1>Examining the Influence of a VPN on IP Addresses</h1>
+<h1 align="center">Examining the Influence of a VPN on IP Addresses</h1>
 
 Within this repository, I aim to illustrate the functionality of Virtual Private Networks (VPNs). These tools encrypt and redirect your internet traffic through remote servers, creating the illusion that you are browsing from diverse locations. VPNs are valuable for bolstering privacy and security, as well as circumventing geo-restrictions. In this guide, I will demonstrate the impact a VPN has on IP addresses, location, and general web browsing aiming to enhance your visual understanding of the setup process and provide a clearer insight into how the implemented VPN functions.<br />
 
